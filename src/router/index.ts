@@ -1,11 +1,23 @@
+/*
+ * @Author: soporior
+ * @Date: 2022-05-05 10:10:10
+ * @LastEditors: soporior
+ * @LastEditTime: 2022-05-10 15:57:13
+ * @FilePath: \tianditudemo\src\router\index.ts
+ */
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
-
+import Map from '../views/Map.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Map',
+    component: Map
+  },
+  {
+    path: '/map',
+    name: 'map',
+    component: Map
   },
   {
     path: '/about',

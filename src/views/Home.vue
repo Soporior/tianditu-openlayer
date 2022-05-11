@@ -1,3 +1,11 @@
+<!--
+ * @Author: soporior
+ * @Date: 2022-05-05 10:10:10
+ * @LastEditors: soporior
+ * @LastEditTime: 2022-05-10 15:22:14
+ * @FilePath: \tianditudemo\src\views\Home.vue
+-->
+
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
@@ -14,5 +22,6 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
     HelloWorld,
   },
 })
+
 export default class Home extends Vue {}
 </script>
